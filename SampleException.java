@@ -6,7 +6,7 @@ class SampleException
         {
             int a=7;
             int b=0;
-            c =a/b;
+            int c = a / b;
             System.out.println(c);
         }
         catch(Exception e)
@@ -17,6 +17,5 @@ class SampleException
         {
             System.out.println("welcome");
         }
-
     }
 }

@@ -1,15 +1,20 @@
 import java.util.Scanner;
-class SampleEvenOdd
+public class SampleEvenOdd
 {
     public static void main(String ar[])
     {
-        Scanner S=new Scanner(System.in);
+        Scanner s=new Scanner(System.in);
         System.out.println("Enter a number:");
-        int num = S.nextInt();
+        int num=s.nextInt();
 
-        if(num % 2 == 0)
-            System.out.println(num + " is even");
+        if(num%2==0)
+        {
+            System.out.println("the entered number is even "+num);
+        }
         else
-            System.out.println(num + " is odd");
+        {
+            System.out.println("the entered number is odd "+num);
+        }
+
     }
 }
